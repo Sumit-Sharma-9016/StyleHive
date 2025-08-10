@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { AppContext } from '../context/AppProvider.jsx'
-import CartItem from '../components/Cart/CartItem';
+import { AppContext } from '../context/AppProvider.jsx';
 import { useNavigate } from 'react-router-dom';
-import User from '../../../backend/models/UserModel.js';
 import { UserContext } from '../context/UserProvider.jsx';
 import { toast, ToastContainer, Bounce } from 'react-toastify';
 

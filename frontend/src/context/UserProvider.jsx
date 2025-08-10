@@ -1,5 +1,4 @@
 import { createContext, useEffect, useState } from "react";
-import User from "../../../backend/models/UserModel";
 import api from "../api";
 
 export const UserContext = createContext();
